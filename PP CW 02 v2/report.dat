@@ -1,0 +1,62 @@
+================           =================== =================== 
+ Passenger Name              Waiting Time(s)   Proccessing Time(s) 
+================           =================== =================== 
+------------------------------------------------------------
+----------------Passenger Boarding Queue 01-----------------
+------------------------------------------------------------
+Gregory Hamlin              6                    6                   
+Kpodo Awiti                 18                   12                  
+Morand Gwen                 29                   11                  
+Pera Hanna                  38                   9                   
+Hitoshi Kiran               50                   12                  
+Kojemiachenko Greta         61                   11                  
+Lourencini Kristo           73                   12                  
+MZoudi Thomas               83                   10                  
+Moreau Gwen                 89                   6                   
+Regina Pirjo                102                  13                  
+Waltari Inuzuka             117                  15                  
+Suling Boris                126                  9                   
+Awora Ryaz                  143                  17                  
+Laubmeier Calorio           153                  10                  
+Vanhanen Inuzuka            159                  6                   
+Grover Hammond              169                  10                  
+------------------------------------------------------------
+----------------Passenger Boarding Queue 02-----------------
+------------------------------------------------------------
+Pedro Lourencao             10                   10                  
+Omar Thiery                 20                   10                  
+Lattar Calogero             34                   14                  
+Valimaa Inuzuka             44                   10                  
+Suling Boris                57                   13                  
+Hamm Pedro                  71                   14                  
+Awiti Ryan                  88                   17                  
+Lau Calorio                 104                  16                  
+Hitoshi Kiw                 118                  14                  
+Lucas Ubweza                128                  10                  
+Nahid Tiffany               138                  10                  
+Morel Hamilton              150                  12                  
+Rosa Aki                    158                  8                   
+Boris Kokorin               164                  6                   
+=================================================================          
+            Summary and Comparison of the Passenger Queues                 
+=================================================================          
+                                      Queue No.1                    Queue No.2                    
+                                      ----------                    ----------                    
+Max Sizes queues attained:-           9                             8                             
+Avg proccessing times(s):-            10.6                          11.7                          
+Max waiting times(s):-                169                           164                           
+Min waiting times(s):-                6                             10                            
+Avg waiting times(s):-                88.5                          91.7                          
+================================================================================          
+        Comparison of the Passenger Single and Dual Queue implementation                  
+================================================================================          
+                                      Single Queue                   Dual Queue                   
+                                      ------------                  ------------                  
+Max Size queue attained:-               18 - 20                       9                             
+Avg proccessing time per passenger(s):- 11.1                          11.1                          
+Max waiting time(s):-                   333                           169                           
+Min waiting time(s):-                   6                             6                             
+Avg waiting time(s):-                   174.8                         90.1                          
+-----------------------------------------------------------------------------------
+Avg waiting time Difference(s):-                            84.7                          
+-----------------------------------------------------------------------------------
